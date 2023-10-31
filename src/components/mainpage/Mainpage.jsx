@@ -1,0 +1,7 @@
+
+
+const Mainpage = () =>{
+    return(
+        
+    )
+}

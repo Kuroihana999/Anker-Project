@@ -1,7 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
 
-/* src/index.css */
-@import "../node_modules/tailwindcss/tailwind.css";
-/* ... */
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
