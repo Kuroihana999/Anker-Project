@@ -1,15 +1,44 @@
 const Card = () => {
   return (
-
-<div className="flex justify-center m-auto bg-gray-800 ">
-  <img src="https://tecdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg" alt="" className="max-h-80 " />
-<h1 className="text-white text-center">daw</h1>
-  <p className="text-center text-white m-auto max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio ipsam accusamus nobis, eos nulla.</p>
-</div>
-    
-    
+    <div className="container flex flex-wrap f justify-center  my-auto mx-6">
+      <div className="flex mb-14 mx-6  bg-gray-800  text-white">
+        <img className="max-h-48 " src="https://unsplash.it/600/400" alt="" />
+        <p className="text-start mt-auto mb-auto mx-6 max-w-sm ">
+          <h1 className="text-center ">Dingus</h1>Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Laborum voluptates sint totam natus
+          nobis qui!
+        </p>
+  
+        <img className="max-h-48 gap-6" src="https://unsplash.it/600/400" alt="" />
+        <p className="text-start mt-auto mb-auto mx-6 max-w-sm">
+          <h1 className="text-center">Dingus</h1>Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Laborum voluptates sint totam natus
+          nobis qui!
+        </p>
+ 
+      
+      </div>
+            <div className="flex mb-14 mx-6  bg-gray-800  text-white">
+        <img className="max-h-48 " src="https://unsplash.it/600/400" alt="" />
+        <p className="text-start mt-auto mb-auto mx-6 max-w-sm ">
+          <h1 className="text-center ">Dingus</h1>Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Laborum voluptates sint totam natus
+          nobis qui!
+        </p>
+  
+        <img className="max-h-48 gap-6" src="https://unsplash.it/600/400" alt="" />
+        <p className="text-start mt-auto mb-auto mx-6 max-w-sm">
+          <h1 className="text-center">Dingus</h1>Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Laborum voluptates sint totam natus
+          nobis qui!
+        </p>
+ 
+      
+      </div>
+      
+  
+    </div>
   );
 };
-
 
 export default Card;
